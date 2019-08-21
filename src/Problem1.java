@@ -1,8 +1,6 @@
 import java.util.*;
 
-public class Solution {
-
-
+public class Problem1 {
     public int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> valueToIndices = new HashMap<>();
         for(int i=0 ; i<nums.length;i++){
@@ -25,7 +23,7 @@ public class Solution {
     public static void main(String... args){
         int[] nums = {2, 7, 11, 15};
         int target = 9;
-        int[] ans = new Solution().twoSum(nums,target);
+        int[] ans = new Problem1().twoSum(nums,target);
         System.out.println(Arrays.toString(ans));
     }
 
